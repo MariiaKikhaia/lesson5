@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 20px;
+}
+
+.header {
+  min-height: 100px;
+  border: 2px solid black;
+}
+
+.main {
+  min-height: calc(100vh - 240px);
+  border: 2px solid black;
+  width: calc(100% - 300px - 200px);
+  float: left;
+  margin-left: 300px;
+}
+
+.left {
+  min-height: calc(100vh - 240px);
+  border: 2px solid black;
+  width: 300px;
+  float: left;
+  margin-left: calc(-100% + 200px);
+}
+
+.right {
+  min-height: calc(100vh - 240px);
+  border: 2px solid black;
+  width: 200px;
+  float: left;
+}
+
+.footer {
+  min-height: 100px;
+  border: 2px solid black;
+}
+
+.clear-fix {
+  clear: both;
+}
